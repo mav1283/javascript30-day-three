@@ -1,0 +1,28 @@
+{
+  "name": "javascript30-day-three",
+  "version": "1.0.0",
+  "description": "Playing with CSS Variables and JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mav1283/javascript30-day-three.git"
+  },
+  "keywords": [
+    "Pure",
+    "Vanilla",
+    "Javascript"
+  ],
+  "author": "Dani Paolo S. Dullano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mav1283/javascript30-day-three/issues"
+  },
+  "homepage": "https://github.com/mav1283/javascript30-day-three#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
