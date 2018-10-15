@@ -5,23 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CSS Variables and JS</title>
-    <link rel="stylesheet" href="build/css/style.css">
-    <!-- <script src="https://unpkg.com/lodash@4.16.6"></script> -->
+    <link rel="icon" type="image/png" id="favcon">
 </head>
 <body>
+    .
+    <h1 class="heading">Playing with <span class="highlight">CSS</span> Variables and <span class="highlight">JS</span></h1>
     <div class="app">
         <div class="controls">
-            <label>Spacing</label>
-            <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="rem">
-            <label>Blur</label>
-            <input type="range" name="blur" min="10" max="25" value="10" data-sizing="rem">
-            <label>Color</label>
-            <input type="color" name="base" value="#ff9900">
+            <div class="control">
+                <label>Spacing</label>
+                <input class='input-field' type="range" name="spacing" min="1" max="10" value="1" data-sizing="rem">
+            </div>
+            <div class="control">
+                <label>Blur</label>
+                <input class='input-field' type="range" name="blur" min="0" max="25" value="0" data-sizing="rem">
+            </div>
+            <div class="control">
+                <label>Base Color</label>
+                <input class='input-field' type="color" name="base" value="#b3b3ff">
+            </div>
         </div>
         <div class="img-con">
-            <img src="build/images/" alt="">
+            <img id="imgbox" alt="">
         </div>
     </div>
-    <script src="./dist/js/main.js"></script>
+    <script src="./dist/main.js"></script>
 </body>
 </html>
