@@ -44,6 +44,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
+    "acorn": "^6.4.1",
     "fstream": "^1.0.12",
     "lodash": "^4.17.15",
     "mixin-deep": "^2.0.1"
