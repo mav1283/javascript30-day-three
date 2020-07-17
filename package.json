@@ -31,7 +31,7 @@
     "html-loader": "^0.5.5",
     "image-webpack-loader": "^4.6.0",
     "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.3.1",
@@ -46,7 +46,7 @@
   "dependencies": {
     "acorn": "^6.4.1",
     "fstream": "^1.0.12",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "minimist": "^1.2.5",
     "mixin-deep": "^2.0.1"
   }
